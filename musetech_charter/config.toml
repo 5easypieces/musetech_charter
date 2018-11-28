@@ -1,13 +1,13 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Kinetic Museums"
+title = "The Musetech Charter"
 theme = "hugo-icon"
 
 
 # Metadata
 [params]
-  author = "Your name"
-  description = "Cool description"
+  author = "The Museum Computer Network"
+  description = "An MCN-sponsored report designed to map the current state of museum technology practice"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

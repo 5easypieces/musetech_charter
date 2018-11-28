@@ -1215,3 +1215,11 @@ p {
 .center-content {
   padding-top: 15vh;
 }
+
+.mdl-tabs__panel h2 {
+
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 10px;
+
+}
