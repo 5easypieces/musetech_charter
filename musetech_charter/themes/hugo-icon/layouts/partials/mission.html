@@ -1,10 +1,13 @@
 <div id="fh5co-about" data-section="mission" style="min-height: 95vh;">
+
 <div class="mdl-grid">
     <div class="mdl-layout-spacer"></div>
-    <div class="mdl-cell mdl-cell--6-col">
+    <div class="mdl-cell mdl-cell--6-col center-content">
+      {{ with .Site.GetPage "section" "mission" }}{{ .Content }}{{end}}
       <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
         <div class="mdl-tabs__tab-bar">
           {{ range (where .Site.RegularPages "Section" "mission") }}
+
             <a href="#{{.Params.name}}-panel" class="mdl-tabs__tab {{ if eq .Params.weight 1}}is-active{{end}}">{{ .Params.title | markdownify }}</a>
 
           {{ end }}
