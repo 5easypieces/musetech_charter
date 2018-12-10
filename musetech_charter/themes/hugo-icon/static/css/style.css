@@ -1223,3 +1223,20 @@ p {
     padding-left: 10px;
 
 }
+
+.mtc-tabs a {
+
+  text-decoration: none!important;
+}
+
+.mtc-tabs a:hover {
+  color: #D7263D!important;
+}
+
+.mtc-tabs .mdl-tabs__tab .mdl-tabs__ripple-container .mdl-ripple {
+  background: #D7263D!important;
+}
+
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
+  background: #D7263D!important;
+}

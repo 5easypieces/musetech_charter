@@ -4,7 +4,7 @@
     <div class="mdl-layout-spacer"></div>
     <div class="mdl-cell mdl-cell--6-col center-content">
       {{ with .Site.GetPage "section" "mission" }}{{ .Content }}{{end}}
-      <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+      <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect mtc-tabs">
         <div class="mdl-tabs__tab-bar">
           {{ range (where .Site.RegularPages "Section" "mission") }}
 
