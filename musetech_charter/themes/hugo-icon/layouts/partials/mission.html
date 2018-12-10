@@ -14,7 +14,7 @@
 
         </div>
         {{ range (where .Site.RegularPages "Section" "mission") }}
-          <div class="mdl-tabs__panel {{- if eq .Params.weight 1 -}}is-active{{- end -}}" id="{{.Params.name}}-panel">
+          <div class="mdl-tabs__panel {{ if eq .Params.weight 1 }}is-active{{ end }}" id="{{.Params.name}}-panel">
             {{with .Params.subtitle}}<h2>{{ . }}</h2>{{ end }}
             {{ .Content }}
           </div>
