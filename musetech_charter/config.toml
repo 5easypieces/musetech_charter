@@ -22,7 +22,7 @@ theme = "hugo-icon"
   team = "Who"
   contact = "Participate"
   # Include logo instead if HOME:
-  # logo = "path/to/logo"
+  # logo = "images/mcnlogo.png"
 
 # Mission section
 [params.mission]
@@ -81,7 +81,7 @@ theme = "hugo-icon"
 
 # Work section
 [params.work]
-  enable = false
+  enable = true
 
   [[params.work.item]]
     title = "Consectetur adipisicing"
@@ -125,7 +125,7 @@ theme = "hugo-icon"
 
 # Team section
 [params.team]
-  enable = false
+  enable = true
   title = "Meet The Team"
   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 

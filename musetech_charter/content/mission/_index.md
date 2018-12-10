@@ -2,4 +2,4 @@
 title: "Mission"
 description: "What we do"
 ---
-This is placeholder text from the "Mission" _index.md_ file.
+This is introductory text, if we need it. It lives in the "Mission" _index.md_ file.
