@@ -81,7 +81,7 @@ theme = "hugo-icon"
 
 # Work section
 [params.work]
-  enable = true
+  enable = false
 
   [[params.work.item]]
     title = "Consectetur adipisicing"
