@@ -1,5 +1,5 @@
 ---
-weight: 2
+weight: 3
 title : "Methodologies"
 name: "methodologies"
 subtitle: "Methodologies and Ethics"
